@@ -9,5 +9,10 @@ public class HomeController {
     @GetMapping("home")
     public String home() {
         return "In Environment project's Home";
-    }    
+    }
+
+    @GetMapping("user")
+    public String user() {
+        return "In Environment project's User";
+    }   
 }
